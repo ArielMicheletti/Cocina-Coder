@@ -1,0 +1,454 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+}
+
+header {
+  background-color: rgb(255, 244, 230);
+  position: relative;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+header header nav {
+  width: 95%;
+}
+header header ul a {
+  display: flex;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .Original {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .bg-Original {
+  background-color: rgb(255, 244, 230);
+}
+
+header nav {
+  width: 95%;
+}
+
+.nav-item {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.d-flex {
+  margin-right: 20px;
+}
+
+header img {
+  width: 100px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.imagen-con-texto {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
+
+.imagen-con-texto img {
+  width: 100%;
+  max-height: 60vh;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.texto-superpuesto {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #F0F0F0;
+  padding: 10px;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.carousel-inner {
+  width: 700px;
+  height: 350px;
+  margin-top: 20px;
+}
+
+#Promociones {
+  display: flex;
+  justify-content: space-evenly section samp;
+  justify-content-display: flex;
+  justify-content-flex-direction: column;
+  justify-content-justify-content: center;
+  justify-content-align-items: center;
+  justify-content-margin: 20px;
+}
+#Promociones .PastasInicio img {
+  width: 300px;
+  border-radius: 10px 10px 10px 10px;
+}
+#Promociones .PostresInicio img {
+  width: 300px;
+  border-radius: 10px 10px 10px 10px;
+}
+#Promociones .UtensiliosInicio img {
+  width: 300px;
+  border-radius: 10px 10px 10px 10px;
+}
+#Promociones .PastasInicio {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.219);
+  width: 40%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#Promociones .UtensiliosInicio {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.219);
+  width: 40%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#Promociones .PostresInicio {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.219);
+  width: 40%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#Promociones .PastasInicio {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.219);
+  width: 40%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section samp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.PastasInicio img {
+  width: 300px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.PostresInicio img {
+  width: 300px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.UtensiliosInicio img {
+  width: 300px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.PastasInicio {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.219);
+  width: 40%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.UtensiliosInicio {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.219);
+  width: 40%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.PostresInicio {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.219);
+  width: 40%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.PastasInicio {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.219);
+  width: 40%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 30px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+}
+.grid-container .grid-container img {
+  width: 300px;
+  margin: 30px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.grid-container img {
+  width: 300px;
+  margin: 30px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.Titulo-Principal {
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.Titulo-Receta {
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.Pastas-Guia {
+  margin-top: 0px;
+}
+
+.body-basico {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0; /* Color de fondo del cuerpo */
+}
+
+.main-basico {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tip {
+  max-width: 600px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #FFFFFF; /* Color de fondo de los consejos */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Agregar sombra a los consejos */
+}
+
+.tip h2 {
+  color: #FF4500; /* Color del texto del título */
+}
+
+.Ingredientes-Generico {
+  display: flex;
+  align-items: center;
+  /* Centra verticalmente el contenido dentro del contenedor */
+}
+
+.Ingredientes-Generico ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+}
+
+.Ingredientes-Generico li {
+  padding: 10px;
+}
+
+.right-image {
+  margin-left: auto;
+  width: 250px;
+  margin-right: 780px;
+}
+
+.Pomodoro {
+  margin-left: auto;
+  width: 400px;
+  margin-right: 780px;
+}
+
+.Titulos-3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.Titulos-3 .Img-Comida {
+  max-width: 50%;
+  width: 230px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+.Titulos-3 .Pasos-2 {
+  flex: 1;
+  width: 80%;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.Pasos {
+  padding-left: 20px;
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+.Tipos-Pastas {
+  padding-left: 30px;
+  font-size: 20px;
+}
+
+.Pasos-Lista {
+  padding-left: 30px;
+  font-size: 20px;
+}
+
+.tipos-de-pastas {
+  margin-left: 150px;
+}
+
+.img-Pescado {
+  width: 450px;
+  margin-left: 430px;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: rgb(255, 244, 230);
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: flex-end;
+}
+
+footer img {
+  width: 30px;
+  background-color: rgb(255, 244, 230);
+}
+
+.Video-Paulina {
+  position: relative;
+  margin-left: 400px;
+  margin-bottom: 100px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+body .Video-General {
+  padding: 20px;
+}
+
+.video-W {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.video-W iframe {
+  width: 100%;
+  height: 400px; /* Establece la altura deseada para el video */
+  border: 0;
+}
+
+.Nombre-Receta {
+  max-width: 100%;
+  text-align: center;
+}
+
+.Nombre-Receta h2 {
+  color: #FF4500; /* Color del texto del título */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+.glossary {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #F0F0F0;
+}
+
+/*# sourceMappingURL=style.css.map */

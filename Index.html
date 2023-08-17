@@ -1,15 +1,21 @@
-<!DOCTYPE html> <!-- La que define la versión y estructura del documento -->
+<!DOCTYPE html> 
 <html lang="en">
 <head>
-    <meta charset="UTF-8"> <!--Tipo de simbolos que podes utilizar-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Escala o diseño responsive-->
-    <title>Document</title> <!-- La que le da el nombre a la pestaña -->
-    <link rel="stylesheet" href="Visual.css">
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="keywords" content="COCINA, RECETAS, SALADO, DULCE, REPOSTERIA, GASTRONOMIA, HOGAR, COMIDA">
+    <meta name="description" content="¡Bienvenido a nuestro rincón culinario! Nuestra página de cocina está diseñada para llevarte en un viaje gastronómico a través de deliciosas recetas de todos los rincones del mundo. Desde platos tradicionales hasta creaciones innovadoras, encontrarás una amplia variedad de opciones para satisfacer todos los gustos.">
+    <title>Document</title> 
+    <link rel="stylesheet" href="Css/style.css">
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-</head>
-<body> <!-- Todo lo que nosotros pongas acá es lo que va a ver el usuario-->
-       <!--Asi se escribe un comentario-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Montserrat:wght@100&family=Poltawski+Nowy:ital,wght@1,500&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+
+
+  </head>
+<body>
        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 
      <header>
@@ -21,20 +27,20 @@
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
               <button class="btn btn-outline-success" type="submit">Search</button>
             </form>
-              <a class="nav-link active" href="Paginas/Recetas Saladas.html">Recetas Saladas</a>
+              <a class="nav-link active" href="Pages/Recetas Saladas.html">Recetas Saladas</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
              </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="Paginas/Recetas Dulces.html">Recetas Dulces</a>
+                  <a class="nav-link active" aria-current="page" href="Pages/Recetas Dulces.html">Recetas Dulces</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" href="Paginas/Glosario.html">Glosario</a>
+                  <a class="nav-link active" href="Pages/Glosario.html">Glosario</a>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link active" href="Paginas/Videos.Html" role="button" aria-expanded="false">
+                  <a class="nav-link active" href="Pages/Videos.html" role="button" aria-expanded="false">
                     Videos
                   </a>
                 </li>
@@ -48,13 +54,12 @@
 
      </header>
 
-     <main>
+     
          
-          <section class="Presentacion">
-
-            <h2>Bienvenido a tu pagina de cocina</h2>
-
-          </section>
+      <div class="imagen-con-texto">
+        <img src="Imagenes/Bienvenido 2.jpg" alt="Imagen">
+        <p class="texto-superpuesto">BENVENDIO A TU PAGINA DE COCINA</p>
+    </div>
 
 
            <Section>
@@ -62,13 +67,13 @@
             <div id="carouselExample" class="carousel slide">
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img src="Imagenes/Comida 1.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
                   <img src="Imagenes/Comida 3.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
                   <img src="Imagenes/Comida 2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="Imagenes/Comida 1.jpg" class="d-block w-100" alt="...">
                 </div>
               </div>
               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -85,10 +90,10 @@
 
           <section id="Promociones">
             <samp class="PastasInicio">
-              <img src="Imagenes/Pastas.jpg" alt="">
+              <a href="Pages/Pastas.html"><img src="Imagenes/Pastas.jpg" alt=""></a>
                   <p>
                   
-                    <h3>Te ayudaremos a descubrir los mejores utensilios de cocina que mejorarán tus habilidades culinarias y harán que cocinar sea una experiencia aún más placentera.</h3>
+                    <h3>¡Descubre el arte de la pasta en nuestra colección de recetas irresistibles! Deléitate con auténticos sabores italianos o déjate sorprender.</h3>
 
                   </p>
 
@@ -96,16 +101,16 @@
             </samp>
 
             <samp class="PostresInicio">
-              <img src="Imagenes/Postres.jpg" alt="">
+              <a href="Pages/Tartas..html"><img src="Imagenes/Postres.jpg" alt=""></a>
                 <p>
                   
-                  <h3>Te ayudaremos a descubrir los mejores utensilios de cocina que mejorarán tus habilidades culinarias y harán que cocinar sea una experiencia aún más placentera.</h3>
+                  <h3>¡Dulce tentación te espera en nuestra colección de recetas de tortas! Déjate seducir por irresistibles aromas y sabores que harán bailar a tu paladar. </h3>
 
                 </p>
             </samp>
 
             <samp class="UtensiliosInicio">
-              <img src="Imagenes/Utensilios.jpg" alt="">
+              <a href="https://www.hudsoncocina.com.ar"><img src="Imagenes/Utensilios.jpg" alt=""></a>
                 <p>
                   
                   <h3>Te ayudaremos a descubrir los mejores utensilios de cocina que mejorarán tus habilidades culinarias y harán que cocinar sea una experiencia aún más placentera.</h3>
@@ -118,10 +123,9 @@
           </section>
 
 
-
           <link rel="stylesheet" href="Style.css">
 
-     </main>
+     
 
      <footer>
       <img src="Imagenes/Icono facebool.png" alt="">

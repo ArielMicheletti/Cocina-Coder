@@ -1,0 +1,248 @@
+/* Comentario en Css */
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+/* Header */
+
+header img {
+
+    width: 100px;
+    margin-top: 5px;
+    margin-left: 5px;
+
+
+}
+
+.bg-Original{
+    background-color: rgb(255, 244, 230);
+
+
+}
+
+header nav{
+    
+    width: 95%;
+
+    
+}
+
+header {
+    background-color: rgb(255, 244, 230);
+    position: sticky;
+    top: 0;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.Original{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+
+     
+
+
+}
+
+header ul a{
+    display: flex;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+
+
+}
+
+
+/* Section */
+
+.Presentacion {
+    background-image: url(Imagenes/Bienvenido\ 2.jpg);
+    width: 100%;
+    height: 250px;
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    
+  
+
+
+}
+
+.Presentacion h2 {
+    text-align: center;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+     
+   
+    
+
+    
+
+}
+
+
+/* Carrusel */
+
+.carousel-inner {
+
+    width: 700px;
+    height: 350px;
+    margin-top: 20px;
+}
+
+/* Section 2*/
+
+#Promociones {
+    display: flex;
+    justify-content: space-evenly
+    
+   
+}
+
+section samp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.PastasInicio img{
+    width: 300px;
+    border-radius: 10px 10px 10px 10px;
+    
+}
+
+
+
+.PostresInicio img{
+    width: 300px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.UtensiliosInicio img{
+    width: 300px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.PastasInicio {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.219);
+    width: 40%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    
+}
+
+.PostresInicio {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.219);
+    width: 40%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.UtensiliosInicio {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.219);
+    width: 40%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+
+}
+
+
+
+
+/* Footer*/
+
+footer {
+    background-color: rgb(255, 244, 230);
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: flex-end;
+}
+
+footer img{
+    width: 30px;
+    background-color: rgb(255, 244, 230);
+    
+
+ 
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+.grid-container {
+    display: grid;
+
+    grid-template-rows: 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 30px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.grid-container img{
+
+    width: 300px;
+    margin: 30px;
+    border-radius: 10px 10px 10px 10px;
+    
+    
+
+
+
+}
+
+

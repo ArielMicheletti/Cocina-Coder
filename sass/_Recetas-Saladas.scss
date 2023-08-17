@@ -1,0 +1,36 @@
+//Ingredientes/
+
+.Ingredientes-Generico {
+    display: flex;
+    align-items: center;
+    
+     /* Centra verticalmente el contenido dentro del contenedor */
+}
+
+.Ingredientes-Generico ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+}
+
+.Ingredientes-Generico li {
+    padding: 10px;
+    
+   
+}
+
+.right-image {
+    margin-left: auto; 
+    width: 250px;
+    margin-right: 780px;
+}
+
+//texto de las recetas/
+
+.Pasos {
+    padding: 20px;
+    font-size: 20px;
+    
+
+    
+}
